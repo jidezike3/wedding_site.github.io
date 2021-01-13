@@ -15,9 +15,11 @@ function openCity(evt, cityName) {
   }
   if (cityName=='Home'){
     $("body").attr("background","200613_jide_oge_0021_edit.jpg")
+    $("body").attr("background-repeat","no-repeat")
 
   }
-  else {$("body").attr("background","wedding_background_image1.jpg")}
+  else {$("body").attr("background","wedding_background_image1.jpg")
+  $("body").attr("background-repeat","no-repeat")}
 
   // Show the current tab, and add an "active" class to the button that opened the tab
   document.getElementById(cityName).style.display = "block";
