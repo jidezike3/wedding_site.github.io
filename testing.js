@@ -15,11 +15,17 @@ function openCity(evt, cityName) {
   }
   if (cityName=='Home'){
     $("body").attr("background","200613_jide_oge_0021_edit.jpg")
+    $("body").attr("background-size","contain")
     $("body").attr("background-repeat","no-repeat")
+    $("body").attr("background-attachment","fixed")
+
 
   }
   else {$("body").attr("background","wedding_background_image1.jpg")
-  $("body").attr("background-repeat","no-repeat")}
+  $("body").attr("background-size","contain")
+  $("body").attr("background-repeat","no-repeat")
+  $("body").attr("background-attachment","fixed")
+  }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
   document.getElementById(cityName).style.display = "block";
