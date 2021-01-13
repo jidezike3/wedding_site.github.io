@@ -14,17 +14,22 @@ function openCity(evt, cityName) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
   if (cityName=='Home'){
-    $("body").attr("background","200613_jide_oge_0021_edit.jpg")
-    $("body").attr("background-size","contain")
-    $("body").attr("background-repeat","no-repeat")
-    $("body").attr("background-attachment","fixed")
+    // $("body").attr("background","200613_jide_oge_0021_edit.jpg")
+    $("body").attr({"background":"200613_jide_oge_0021_edit.jpg","background-size":"contain","background-repeat":"no-repeat"})
+
+    // $("body").attr("background-size","cover")
+    // $("body").attr("background-repeat","no-repeat")
+    // $("body").attr("background-attachment","fixed")
 
 
   }
-  else {$("body").attr("background","wedding_background_image1.jpg")
-  $("body").attr("background-size","contain")
-  $("body").attr("background-repeat","no-repeat")
-  $("body").attr("background-attachment","fixed")
+  else {
+    // $("body").attr("background","wedding_background_image1.jpg")
+  $("body").attr({"background":"wedding_background_image1.jpg","background-size":"contain","background-repeat":"no-repeat"})
+
+  // $("body").attr("background-size","cover")
+  // $("body").attr("background-repeat","no-repeat")
+  // $("body").attr("background-attachment","fixed")
   }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
