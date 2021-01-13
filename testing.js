@@ -13,6 +13,11 @@ function openCity(evt, cityName) {
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
+  if (cityName=='Home'){
+    $("body").attr("background","200613_jide_oge_0021_edit.jpg")
+
+  }
+  else {$("body").attr("background","wedding_background_image1.jpg")}
 
   // Show the current tab, and add an "active" class to the button that opened the tab
   document.getElementById(cityName).style.display = "block";
