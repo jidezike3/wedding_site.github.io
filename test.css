@@ -17,9 +17,38 @@
 
 }
 
+/* tabcontent.act
+li.active */
 
+/* .tabcontent {background-image: url(wedding_background_image1.jpg);background-size: cover;background-repeat: no-repeat;
+  background-attachment: fixed;} */
 
+@font-face {
+  font-family: myFirstFont;
+  src: url(Hello.otf);
+}
 
+/* .tabcontent carouselExampleControls {
+  width: 5%;
+} */
+
+/* .carouselExampleControls carousel {
+width:20px;
+} */
+
+.carouselExampleControls .carousel-control-prev {
+    left: 50%;
+    border-bottom: 0;
+    font-size: 40px;
+    color: #444;
+}
+
+.carouselExampleControls .carousel-control-next {
+    right: 10%;
+    border-bottom: 0;
+    font-size: 40px;
+    color: #444;
+}
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
