@@ -15,7 +15,7 @@ function openCity(evt, cityName) {
   }
   if (cityName=='Home'){
     // $("body").attr("background","200613_jide_oge_0021_edit.jpg")
-    $("body").attr({"background":"200613_jide_oge_0021_edit.jpg","background-size":"cover","background-repeat":"no-repeat"})
+    $("body").attr({"background":"200613_jide_oge_0021_edit.jpg","background-size":"cover","background-repeat":"no-repeat","background-attachment": "fixed"})
 
     // $("body").attr("background-size","cover")
     // $("body").attr("background-repeat","no-repeat")
@@ -25,7 +25,7 @@ function openCity(evt, cityName) {
   }
   else {
     // $("body").attr("background","wedding_background_image1.jpg")
-  $("body").attr({"background":"wedding_background_image1.jpg","background-size":"cover","background-repeat":"no-repeat"})
+  $("body").attr({"background":"wedding_background_image1.jpg","background-size":"cover","background-repeat":"no-repeat","background-attachment": "fixed"})
 
   // $("body").attr("background-size","cover")
   // $("body").attr("background-repeat","no-repeat")
