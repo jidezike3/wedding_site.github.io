@@ -43,7 +43,7 @@
   <button class="tablinks" onclick="openCity(event, 'Event Details')">Event Details</button>
   <button class="tablinks" onclick="openCity(event, 'Contact Information')">Contact Information</button>
   <button class="tablinks" onclick="openCity(event, 'RSVP')">RSVP</button>
-  <button class="tablinks" onclick="openCity(event, 'Wedding Registry')">Wedding Registry</button>
+  <button class="tablinks" onclick="openCity(event, 'Wedding Registry')" style="padding-bottom:50px;">Wedding Registry</button>
 </div>
 
 <div id="Home" class="tabcontent">
@@ -157,7 +157,7 @@ New Rochelle, NY 10805
     </p>
 </div>
 
-<div id="Wedding Registry" class="tabcontent" style="padding-top:2%;">
+<div id="Wedding Registry" class="tabcontent" style="padding-top:50px;">
   <h3>Under Construction</h3>
   <!-- <p>Amazon</p>
   <p>Target</p>
@@ -169,10 +169,14 @@ New Rochelle, NY 10805
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="testing.js"></script>
 <script>
-  // $("body").attr({"background-image":url("200613_jide_oge_0021_edit.jpg"),"background-size":"cover","background-repeat":"no-repeat"})
-
-  $("#Home").show()
-  $("body").attr({"background":"200613_jide_oge_0021_edit.jpg","background-size":"cover","background-repeat":"no-repeat"})
-;
+  const bodyCss = {
+    "background": "200613_jide_oge_0021_edit.jpg",
+    "background-size":"cover",
+    "background-repeat":"no-repeat"
+  };
+  $("body").attr(bodyCss);
+  // $("body").attr("background-attachment", "fixed");
+  // $("body").attr("background-position", "center center");
+  $("#Home").show();
 </script>
 <html>
