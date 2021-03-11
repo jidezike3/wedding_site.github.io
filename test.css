@@ -1,7 +1,5 @@
 /* Style the tab */
 
-
-
 .tab {
   overflow: hidden;
   border: none;
@@ -12,9 +10,6 @@
   display: block;
   float: right;
   top:100px;
-
-
-
 }
 
 /* tabcontent.act
@@ -78,10 +73,6 @@ width:20px;
    /* left:-50px; */
    /* border-spacing: 120px; */
    margin-bottom: 50px;
-
-   ;
-
-
 }
 
 /* Change background color of buttons on hover */
@@ -102,11 +93,8 @@ width:20px;
 .tabcontent {
   display: none;
   padding: 6px 12px;
-
   border-top: none;
   text-align: center;
-
-
 }
 
 .tabcontent {
@@ -116,6 +104,21 @@ width:20px;
 .tabcontent img{margin-left: auto;
   margin-right: auto;
   width: 50%;
-   height: auto;}
+  height: auto;
+}
 
-/* Go from zero to full opacity */
+input[type=submit] {
+                color: #000000;
+                background-color: #f1f1f1;
+                font-weight: bold;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                outline: none;
+                cursor: pointer;
+                padding: 14px 16px;
+                transition: 0.3s;
+}
+
+input[type=submit]:hover {
+    background-color: #ddd;
+}
